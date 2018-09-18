@@ -1,0 +1,20 @@
+@mixin transition($duration: .2s, $delay: 0s) {
+  -webkit-transition : all $duration cubic-bezier(.785, .135, .15, .86) $delay;
+  -moz-transition    : all $duration cubic-bezier(.785, .135, .15, .86) $delay;
+  -ms-transition     : all $duration cubic-bezier(.785, .135, .15, .86) $delay;
+  -o-transition      : all $duration cubic-bezier(.785, .135, .15, .86) $delay;
+  transition         : all $duration cubic-bezier(.785, .135, .15, .86) $delay;
+}
+
+@mixin dn-grid($breakpoint) {
+  $total-columns : 12;
+  @for $i from 1 through $total-columns {
+    @for $j from 1 through $i {
+      $w : ($j/$i);
+
+      .dn-col#{$breakpoint}-#{$j}-#{$i} {
+        width : $w * 100%;
+      }
+    }
+  }
+}

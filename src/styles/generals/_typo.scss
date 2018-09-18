@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:100,400,700');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-weight  : 400;
+  font-size    : 16px;
+  line-height  : 100%;
+  font-style   : normal;
+  font-variant : normal;
+}
+
+.dn {
+
+  &--text {
+    &__bold {
+      font-weight : 700;
+    }
+
+    &__normal {
+      font-weight : 400;
+    }
+
+    &__thin {
+      font-weight : 100;
+    }
+  }
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 8vw;
+  margin: 0;
+  @extend .dn--text__thin;
+  @include breakpoint('m') {
+    font-size : 6vw;
+  }
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4vw;
+  @extend .dn--text__normal;
+  @include breakpoint('m') {
+    font-size : 2vw;
+  }
+}

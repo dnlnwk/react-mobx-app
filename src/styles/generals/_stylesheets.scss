@@ -1,0 +1,44 @@
+/*********************
+      COLORS
+*********************/
+
+/** Primary **/
+$color-primary: #6942ba;
+$color-grey: #333333;
+$color-light-grey: #818181;
+
+/** Secondary **/
+$color-white: #FFFFFF;
+
+
+/*****************************
+  BREAKPOINTS (mobile first)
+*****************************/
+
+@mixin breakpoint($point) {
+  @if $point == xxl {
+    @media (min-width : 1920px) {
+      @content;
+    }
+  }
+  @else if $point == xl {
+    @media (min-width : 1440px) {
+      @content;
+    }
+  }
+  @else if $point == l {
+    @media (min-width : 1024px) {
+      @content;
+    }
+  }
+  @else if $point == m {
+    @media (min-width : 768px) {
+      @content;
+    }
+  }
+  @else if $point == s {
+    @media (min-width : 640px) {
+      @content;
+    }
+  }
+}

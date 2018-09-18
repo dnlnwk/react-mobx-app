@@ -1,0 +1,36 @@
+/*********************
+  1. GLOBAL STYLES
+*********************/
+
+/** 1.1 Vendors **/
+@import "vendors/normalize/normalize";
+
+/** 1.2 Utils **/
+@import "utils/functions";
+@import "utils/helpers";
+@import "utils/mixins";
+
+
+/** 1.3 Generals **/
+@import "generals/stylesheets";
+@import "generals/grid";
+@import "generals/typo";
+@import "generals/layout";
+@import "generals/base";
+
+/** 1.3 Modules **/
+@import "modules/buttons";
+
+
+/*********************
+  2. SPECIFIC STYLES
+*********************/
+
+/** 2.1 Pages **/
+@import "../js/pages/Home/Home";
+
+/** 2.2 Components **/
+@import "../js/components/Header/Header";
+@import "../js/components/Footer/Footer";
+@import "../js/components/Stage/Stage";
+@import "../js/components/Forkme/Forkme";

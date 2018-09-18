@@ -1,0 +1,24 @@
+.dn {
+  &--button {
+    padding         : 15px 30px;
+    margin          : 10px 0;
+    border-radius   : 5px;
+    text-decoration : none;
+    outline         : none;
+    cursor          : pointer;
+    display         : inline-block;
+    @include transition();
+
+    &__cta {
+      background-color : $color-primary;
+      border           : 2px solid $color-primary;
+      color            : $color-white;
+      font-size        : 18px;
+
+      &:hover {
+        background-color : rgba(105, 66, 186 ,.95);
+        border           : 2px solid $color-primary;
+      }
+    }
+  }
+}
