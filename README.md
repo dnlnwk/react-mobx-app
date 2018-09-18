@@ -28,49 +28,21 @@ $ cd react-mobx-app
 
 #### Install dependencies
 
-```bash
-$ yarn
-```
-or
-```bash
-$ npm install
-```
+`yarn install` or `npm install`
 
 ## Development
 
-```bash
-$ yarn dev
-```
-or
-```bash
-$ npm run dev
-```
+`yarn dev` or `npm run dev`
 
 Open in [http://localhost:8080/](http://localhost:8080/) 👨‍💻
 
 ## Testing with Jest
 
-[jestjs.io](https://jestjs.io/) 🔎
-
-```bash
-$ yarn test
-```
-or
-```bash
-$ npm run test
-```
+`yarn test` or `npm run test`
 
 ## Production
 
-Webpack build 🔧
-
-```bash
-$ yarn build
-```
-or
-```bash
-$ npm run build
-```
+`yarn build` or `npm run build`
 
 Production source in /dist folder
 
