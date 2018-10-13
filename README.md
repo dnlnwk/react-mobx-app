@@ -10,8 +10,8 @@ This is just a lightweight boilerplate with React and MobX. Just clone and have 
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
 ### Technologies
-- [React](https://reactjs.org/) (16.5.1)
-- [MobX](https://mobx.js.org/) (5.1.1)
+- [React](https://reactjs.org/) (16.5.2)
+- [MobX](https://mobx.js.org/) (5.5.0)
 - [Babel](https://babeljs.io/)
 - [jestjs.io](https://jestjs.io/)
 - [Sass](https://sass-lang.com/)
